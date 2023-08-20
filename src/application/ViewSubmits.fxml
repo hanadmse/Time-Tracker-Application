@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ViewSubmitsController">
+   <children>
+      <Label layoutX="120.0" layoutY="14.0" prefHeight="51.0" prefWidth="340.0" text="View Submitted Time Entries" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="65.0" prefHeight="51.0" prefWidth="293.0" text="Select one of the two options:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="300.0" layoutY="208.0" mnemonicParsing="false" onAction="#switchToAdvancedSearch" prefHeight="59.0" prefWidth="275.0" style="-fx-background-color: #2196f3;" text="Advanced Search for time entries" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="208.0" mnemonicParsing="false" onAction="#switchToLatestEntries" prefHeight="59.0" prefWidth="233.0" style="-fx-background-color: #2196f3;" text="View latest time entries" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="383.0" mnemonicParsing="false" onAction="#switchToMain" prefHeight="59.0" prefWidth="191.0" style="-fx-background-color: #2196f3;" text="Return to main screen" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
