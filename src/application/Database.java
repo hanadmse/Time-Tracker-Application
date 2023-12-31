@@ -18,9 +18,6 @@ public class Database {
 		try {
 			Class.forName("org.sqlite.JDBC");
 			Connection connection = DriverManager.getConnection("jdbc:sqlite:data/tasks.db");
-			
-			//"jdbc:sqlite:C:\\Users\\Fowsia\\eclipse-workspace\\HelloFX/tasks.db"
-			//"jdbc:sqlite:C:/Users/Fowsia/tasks.db"
 			return connection;
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
